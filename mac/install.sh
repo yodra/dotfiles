@@ -20,15 +20,13 @@ sudo nvram SystemAudioVolume=" "
 
 # Play user interface sound effects: false
 defaults write com.apple.systemsound "com.apple.sound.uiaudio.enabled" -int 0
-defaults write com.apple.sound.beep.flash 0
-defaults write com.apple.sound.beep.volume 0
-defaults write com.apple.sound.uiaudio.enabled 0
 
 # Disable Big Sur Chime
 sudo nvram StartupMute=%01
 
 # Timezone 🏝
 sudo systemsetup -settimezone "Atlantic/Canary" > /dev/null
+
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
@@ -38,7 +36,7 @@ sudo systemsetup -settimezone "Atlantic/Canary" > /dev/null
 sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bool true
 
 # Disable “natural” (Lion-style) scrolling
-defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
 
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 2
@@ -85,6 +83,12 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
 
+# Enable dock icon magnification
+defaults write com.apple.dock magnification -bool true
+
+# Dock icon magnification size
+defaults write com.apple.dock largesize -int 77
+
 # Enable highlight hover effect for the grid view of a stack (Dock)
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
@@ -96,6 +100,9 @@ defaults write com.apple.dock mineffect -string "genie"
 
 # Minimize windows into their application’s icon
 defaults write com.apple.dock minimize-to-application -bool false
+
+# Show indicator recent applications used
+defaults write com.apple.dock show-recents -bool false
 
 # Show indicator lights for open applications in the Dock
 defaults write com.apple.dock show-process-indicators -bool true

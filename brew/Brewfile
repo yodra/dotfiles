@@ -71,7 +71,7 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 brew "python@3.8"
 brew "starship"
-brew "truncate", link: false
+brew "truncate"
 brew "wget"
 brew "yarn"
 brew "heroku/brew/heroku"
@@ -103,7 +103,6 @@ mas "Magnet", id: 441258766
 mas "NordVPN IKE", id: 1116599239
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "PasteBox", id: 928940999
 mas "Session", id: 1521432881
 mas "Slack", id: 803453959
 mas "Spark", id: 1176895641
@@ -111,4 +110,3 @@ mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
 mas "Toggl Track", id: 957734279
 mas "Xcode", id: 497799835
-mas "Yubico Authenticator", id: 1497506650
