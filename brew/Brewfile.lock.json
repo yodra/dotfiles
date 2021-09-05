@@ -57,6 +57,9 @@
       },
       "wix/brew": {
         "revision": "d0d1ea5f664121b7490b2448b8eb42e44e8506b2"
+      },
+      "jesseduffield/lazydocker": {
+        "revision": "098099fc178d4d2fb4133b02f9ea56deabcc2dc9"
       }
     },
     "brew": {
@@ -2094,6 +2097,12 @@
         "version": "5.7.6.1320",
         "options": {
           "full_name": "zoom"
+        }
+      },
+      "rocket": {
+        "version": "1.8.2,79",
+        "options": {
+          "full_name": "rocket"
         }
       }
     },

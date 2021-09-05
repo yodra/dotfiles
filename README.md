@@ -1,4 +1,4 @@
-# raulanatol dotfiles
+# yodra dotfiles
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -20,7 +20,7 @@
 Run this:
 
 ```sh
-git clone https://github.com/raulanatol/dotfiles.git ~/.dotfiles
+git clone https://github.com/yodra/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 make install
 ```
