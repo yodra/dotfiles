@@ -1,6 +1,6 @@
 PYTHON_PATH='/usr/local/opt/python/'
 RUST_PATH="$HOME/.cargo"
-JAVA_PATH="$(/usr/libexec/java_home -v 1.8)"
+JAVA_PATH=/usr/local/opt/openjdk
 ANDROID_HOME="$HOME/Library/Android/sdk"
 GRAILS_HOME=/Users/yodra/desarrollo/leanmind/netex/grails-2.5.5
 GOPATH=$HOME/go
