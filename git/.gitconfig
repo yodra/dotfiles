@@ -18,6 +18,7 @@
 [user]
 	email = yodralopez@gmail.com
 	name = yodralopez
+    signingkey = 90C481EB6D3B4227
 
 [core]
 	editor = vim
@@ -47,3 +48,12 @@
 
 [init]
 	defaultBranch = main
+
+[commit]
+	gpgsign = true
+
+[tag]
+  gpgSign = true
+
+[gpg]
+    program = gpg
