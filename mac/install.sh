@@ -36,7 +36,7 @@ sudo systemsetup -settimezone "Atlantic/Canary" > /dev/null
 sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bool true
 
 # Disable “natural” (Lion-style) scrolling
-defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
 
 # Set a blazingly fast keyboard repeat rate
 defaults write NSGlobalDomain KeyRepeat -int 2
