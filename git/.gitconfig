@@ -1,6 +1,4 @@
-[includeIf "gitdir:~/desarrollo/leanmind"]
-  path = .gitconfig-progessional
-[includeIf "gitdir:~/go/src/gitlab.services/crawling"]
+[includeIf "gitdir:~/desarrollo/theams"]
   path = .gitconfig-progessional
 [includeIf "gitdir:~/"]
   path = .gitconfig-personal
@@ -18,11 +16,11 @@
 [user]
 	email = yodralopez@gmail.com
 	name = yodralopez
-    signingkey = 90C481EB6D3B4227
+#     signingkey = 90C481EB6D3B4227
 
 [core]
 	editor = vim
-	excludesfile = /Users/yodra/desarrollo/.gitignore_global
+	excludesfile = /Users/yodralopez/desarrollo/.gitignore_global
 	pager = delta
 
 [merge]
@@ -35,7 +33,7 @@
   autocorrect = 1
 
 [pager]
-	branch = false
+    branch = false
 
 [delta]
     features = side-by-side line-numbers decorations
@@ -49,11 +47,11 @@
 [init]
 	defaultBranch = main
 
-[commit]
-	gpgsign = true
-
-[tag]
-  gpgSign = true
-
-[gpg]
-    program = gpg
+# [commit]
+# 	gpgsign = true
+#
+# [tag]
+#   gpgSign = true
+#
+# [gpg]
+#     program = gpg

@@ -25,8 +25,7 @@ defaults write com.apple.systemsound "com.apple.sound.uiaudio.enabled" -int 0
 sudo nvram StartupMute=%01
 
 # Timezone 🏝
-sudo systemsetup -settimezone "Atlantic/Canary" > /dev/null
-
+#sudo systemsetup -settimezone "Atlantic/Canary" > /dev/null
 
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
@@ -34,6 +33,9 @@ sudo systemsetup -settimezone "Atlantic/Canary" > /dev/null
 
 # 🇺🇳 Show language menu in the top right corner of the boot screen
 sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bool true
+
+# Enable tap to click trackpad
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool false
 
 # Disable “natural” (Lion-style) scrolling
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false

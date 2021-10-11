@@ -2,7 +2,7 @@ PYTHON_PATH='/usr/local/opt/python/'
 RUST_PATH="$HOME/.cargo"
 JAVA_PATH=/usr/local/opt/openjdk
 ANDROID_HOME="$HOME/Library/Android/sdk"
-GRAILS_HOME=/Users/yodra/desarrollo/leanmind/netex/grails-2.5.5
+GRAILS_HOME=/Users/yodralopez/desarrollo/leanmind/netex/grails-2.5.5
 GOPATH=$HOME/go
 GOROOT="/usr/local/opt/go/libexec"
 PYENV_PATH="$HOME/.pyenv"
@@ -16,7 +16,6 @@ INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
 
 MISC_SCRIPTS="$HOME/utils/misc"
 IDEA_SCRIPTS="$HOME/utils/idea_scripts"
-MISC_SCRIPTS="$HOME/utils/misc"
 
 export HOMEBREW_AUTO_UPDATE_SECS=86400
 export HOMEBREW_NO_ANALYTICS=true

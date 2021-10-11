@@ -9,6 +9,10 @@ source "$DOTFILES_PATH/shell/sout"
 source "$DOTFILES_PATH/shell/os"
 source "$DOTFILES_PATH/.scripts/utils"
 
+# Create utils paths
+mkdir -p $HOME/utils/misc
+mkdir -p $HOME/utils/idea_scripts
+
 echo "Update submodules"
 git submodule init
 git submodule update
