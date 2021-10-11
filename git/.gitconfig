@@ -47,6 +47,9 @@
 [init]
 	defaultBranch = main
 
+[pull]
+  ff = only
+
 # [commit]
 # 	gpgsign = true
 #
