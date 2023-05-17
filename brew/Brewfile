@@ -17,11 +17,11 @@ tap "rasukarusan/tap"
 tap "rigellute/tap"
 tap "sambadevi/powerlevel9k"
 tap "wix/brew"
+brew "xz"
 brew "archey"
 brew "atuin"
 brew "autoconf"
 brew "automake"
-brew "xz"
 brew "python@3.9"
 brew "awscli"
 brew "bat"
@@ -65,6 +65,7 @@ brew "pango"
 brew "librsvg"
 brew "graphviz"
 brew "grex"
+brew "htop"
 brew "makensis"
 brew "man2html"
 brew "mas"
@@ -73,19 +74,21 @@ brew "mingw-w64"
 brew "mockery"
 brew "mongosh"
 brew "node"
+brew "openclonk"
 brew "openjdk@11"
 brew "pinentry-mac"
 brew "python@3.10", link: false
 brew "pre-commit", link: false
 brew "pyenv"
 brew "pyenv-virtualenv"
-brew "tcl-tk"
+brew "tcl-tk", link: false
 brew "python@3.8", link: false
 brew "starship"
 brew "truncate"
 brew "wget"
 brew "yarn"
-brew "heroku/brew/heroku"
+brew "heroku/brew/heroku", link: false
+cask "appcleaner"
 cask "appzapper"
 cask "blackhole-16ch"
 cask "blackhole-64ch"
@@ -116,6 +119,7 @@ cask "twitch"
 cask "zoom"
 mas "1Password 7", id: 1333542190
 mas "Bitdefender Virus Scanner", id: 500154009
+mas "EasyRes", id: 688211836
 mas "GarageBand", id: 682658836
 mas "GoodNotes", id: 1444383602
 mas "iMovie", id: 408981434
@@ -124,6 +128,7 @@ mas "Keynote", id: 409183694
 mas "Magnet", id: 441258766
 mas "NordVPN IKE", id: 1116599239
 mas "Numbers", id: 409203825
+mas "Octane X", id: 1548355081
 mas "Pages", id: 409201541
 mas "Session", id: 1521432881
 mas "Slack", id: 803453959
