@@ -2,6 +2,8 @@ setopt PROMPT_SUBST
 setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_FCNTL_LOCK
 
+DISABLE_AUTO_TITLE="true"
+
 # Start zim
 source $ZIM_HOME/init.zsh
 
@@ -30,4 +32,3 @@ source $DOTFILES_PATH/langs/python/pyenv/init.sh
 source $DOTFILES_PATH/zsh/extra/atuin.sh
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-

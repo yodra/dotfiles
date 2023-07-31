@@ -1,23 +1,23 @@
 #!/usr/bin/env bash
 
 mkdir -p $HOME/.config
-mkdir -p $HOME/.config/alacritty
+mkdir -p $HOME/.config/nvim
 mkdir -p $HOME/.hammerspoon
-mkdir -p $HOME/desarrollo
+mkdir -p $HOME/development
 
 
 echo " Applying symlinks"
 ln -sf "$DOTFILES_PATH"/procs/.procs.toml "$HOME"/.procs.toml
 ln -sf "$DOTFILES_PATH"/vim/.vimrc "$HOME"/.vimrc
+ln -sf "$DOTFILES_PATH"/nvim/init.vim "$HOME"/.config/nvim/init.vim
 ln -sf "$DOTFILES_PATH"/git/.gitconfig "$HOME"/.gitconfig
 ln -sf "$DOTFILES_PATH"/git/.gitignore_global "$HOME"/desarrollo/.gitignore_global
 ln -sf "$DOTFILES_PATH"/git/.gitattributes "$HOME"/.gitattributes
+ln -sf "$DOTFILES_PATH"/ssh/config "$HOME"/.ssh/config
 ln -sf "$DOTFILES_PATH"/starship/starship.toml "$HOME"/.config/starship.toml
-ln -sf "$DOTFILES_PATH"/hammerspoon/init.lua "$HOME"/.hammerspoon/init.lua
 ln -sf "$DOTFILES_PATH"/zsh/.zshrc "$HOME"/.zshrc
 ln -sf "$DOTFILES_PATH"/zsh/.zshenv "$HOME"/.zshenv
 ln -sf "$DOTFILES_PATH"/zim/.zlogin "$HOME"/.zlogin
 ln -sf "$DOTFILES_PATH"/zim/.zimrc "$HOME"/.zimrc
 ln -sf "$DOTFILES_PATH"/langs/ruby/gemrc.symlink "$HOME"/.gemrc
-ln -sf "$DOTFILES_PATH"/taskwarrior/.taskrc "$HOME"/.taskrc
-ln -sf "$DOTFILES_PATH"/apps/alacritty/alacritty.yml "$HOME"/.config/alacritty/alacritty.yml
+ln -sf "$DOTFILES_PATH/iTerm/scripts/set_badge_text.py" "$HOME"/Library/Application\ Support/iTerm2/Scripts/set_badge_text.py

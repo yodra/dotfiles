@@ -1,6 +1,4 @@
 {
-"Profiles": [
-{
   "Ansi 5 Color" : {
     "Red Component" : 0.7764706015586853,
     "Color Space" : "sRGB",
@@ -424,9 +422,7 @@
   "Columns" : 80,
   "Unicode Normalization" : 0,
   "Visual Bell" : true,
-  "ASCII Ligatures" : false,
+  "Custom Directory" : "Recycle",
   "Thin Strokes" : 4,
-  "Custom Directory" : "Recycle"
-}
-]
+  "ASCII Ligatures" : false
 }

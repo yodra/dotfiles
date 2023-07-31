@@ -8,6 +8,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "jetbrains/utils"
 tap "koekeishiya/formulae"
 tap "localazy/tools"
 tap "mongodb/brew"
@@ -20,8 +21,10 @@ tap "wix/brew"
 brew "xz"
 brew "archey"
 brew "atuin"
+brew "autoenv"
 brew "autoconf"
 brew "automake"
+brew "autojump"
 brew "python@3.9"
 brew "awscli"
 brew "bat"
@@ -84,17 +87,22 @@ brew "pyenv-virtualenv"
 brew "tcl-tk", link: false
 brew "python@3.8", link: false
 brew "starship"
-brew "truncate"
+brew "truncate", link: false
 brew "wget"
 brew "yarn"
 brew "heroku/brew/heroku", link: false
+cask "1password"
+cask "1password-cli"
 cask "appcleaner"
 cask "appzapper"
 cask "blackhole-16ch"
 cask "blackhole-64ch"
 cask "brave-browser"
 cask "cleanshot"
+cask "daisydisk"
 cask "discord"
+cask "docker"
+cask "figma"
 cask "firefox"
 cask "font-awesome-terminal-fonts"
 cask "font-hack-nerd-font"
@@ -109,15 +117,15 @@ cask "jetbrains-toolbox"
 cask "keybase"
 cask "miro"
 cask "notion"
+cask "numi"
 cask "obs"
+cask "obsidian"
 cask "odrive"
 cask "robo-3t"
 cask "rocket"
 cask "skype"
 cask "spotify"
-cask "twitch"
 cask "zoom"
-mas "1Password 7", id: 1333542190
 mas "Bitdefender Virus Scanner", id: 500154009
 mas "EasyRes", id: 688211836
 mas "GarageBand", id: 682658836
@@ -137,3 +145,5 @@ mas "Telegram", id: 747648890
 mas "The Unarchiver", id: 425424353
 mas "Toggl Track", id: 957734279
 mas "Xcode", id: 497799835
+mas "Color Picker", id: 641027709
+mas "Battery Indicator", id: 1206020918
