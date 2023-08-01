@@ -31,7 +31,7 @@ Something we need to update the dotfiles project, new brew applications installe
 execute
 
 ```shell
-make checkpoint
+PRIVATE_FOLDER=your_private_folder_path make checkpoint
 ```
 
 ## How to add more symlinks?
@@ -50,6 +50,10 @@ Preferences > General > Preferences >
 
 - ✅ Load preferences from a custom folder or URL  (~/.dotfiles/iTerm)
 - ✅ Save changes to folder when iTerm2 quits
+
+## Java installation
+
+- 🔽 Download and install the JDK https://www.oracle.com/java/technologies/downloads/
 
 # Misc
 
