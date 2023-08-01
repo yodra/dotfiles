@@ -12,9 +12,11 @@ echo 'Brew apps exported!'
 # Python save
 # ------------
 rm -f "$DOTFILES_PATH/langs/python/requirements.txt"
-pip freeze >"$DOTFILES_PATH/langs/python/requirements.txt"
+pip3 freeze >"$DOTFILES_PATH/langs/python/requirements.txt"
 echo 'Python apps exported!'
-
+set +u
+echo "poco bash mimimimimi"
+echo $PRIVATE_FOLDER
 # ---------------
 # Private folder
 # ---------------
@@ -26,6 +28,7 @@ if [ -d "$PRIVATE_FOLDER" ]; then
   cp "$DOTFILES_PATH/zsh/aliases/private-aliases.sh" "$PRIVATE_FOLDER/zsh/aliases/private-aliases.sh"
 fi
 
+set -u
 cd "$DOTFILES_PATH" || exit
 git pull
 git add .
