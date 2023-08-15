@@ -18,7 +18,7 @@ INFOPATH="/opt/homebrew/share/info:${INFOPATH:-}";
 
 DEVELOPMENT="$HOME/development"
 MISC_SCRIPTS="$HOME/utils/misc"
-IDEA_SCRIPTS="$HOME/utils/idea_scripts"
+IDEA_SCRIPTS="$HOME/Library/Application Support/JetBrains/Toolbox/scripts"
 
 ITERM2_PYTHON_PATH=$HOME/Library/Application\ Support/iTerm2/iterm2env/versions/3.8.6/bin/python3.8
 ITERM2_SCRIPTS=$HOME/Library/Application\ Support/iTerm2/Scripts

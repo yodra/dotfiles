@@ -25,17 +25,17 @@ disabled = true
 
 [git_branch]
 format = "[$symbol$branch]($style)"
-symbol = "🐙 "
+symbol = "🐙"
 
 [git_status]
 conflicted = "🤯"
 ahead = "👆"
 behind = "👇"
 diverged = "😵"
-untracked = "🤷‍♀️"
+untracked = "🤷‍♀"
 stashed = "📦"
-modified = "✏️ "
-staged = ' [++$count](green)'
+modified = "📝"
+staged = '[++$count](green)'
 renamed = ""
 deleted = "🗑"
 format = '$all_status$ahead_behind $style'
@@ -51,10 +51,10 @@ style = "yellow"
 
 [python]
 format = '[${symbol}${pyenv_prefix}${version}( \($virtualenv\))]($style) '
-symbol = "🐍 "
+symbol = "🐍"
 
 [java]
-format = '[${symbol}(${version})]($style) '
+format = '[(${version} )]($style)'
 
 [golang]
 format = '[${symbol}(${version})]($style) '

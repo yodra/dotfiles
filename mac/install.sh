@@ -19,7 +19,7 @@ done 2>/dev/null &
 sudo nvram SystemAudioVolume=" "
 
 # Play user interface sound effects: false
-defaults write com.apple.systemsound "com.apple.sound.uiaudio.enabled" -int 0
+defaults write "Apple Global Domain" "com.apple.sound.uiaudio.enabled" -int 0
 
 # Disable Big Sur Chime
 sudo nvram StartupMute=%01
@@ -38,11 +38,11 @@ sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bo
 defaults write com.apple.AppleMultitouchTrackpad Clicking -bool false
 
 # Disable “natural” (Lion-style) scrolling
-defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+defaults write "Apple Global Domain" com.apple.swipescrolldirection -bool false
 
 # Set a blazingly fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 2
-defaults write NSGlobalDomain InitialKeyRepeat -int 68
+defaults write "Apple Global Domain" KeyRepeat -int 2
+defaults write "Apple Global Domain" InitialKeyRepeat -int 68
 
 ################################################################################
 # Screen                                                                      #
@@ -57,14 +57,14 @@ mkdir -p "${HOME}/Downloads/screenshots"
 defaults write com.apple.screencapture location -string "${HOME}/Downloads/screenshots"
 
 # Autohide the menu bar - false
-defaults write NSGlobalDomain _HIHideMenuBar -bool false
+defaults write "Apple Global Domain" _HIHideMenuBar -bool false
 
 ################################################################################
 # Finder                                                                      #
 ################################################################################
 
 # Finder: show all filename extensions
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+defaults write "Apple Global Domain" AppleShowAllExtensions -bool true
 
 # Finder: show status bar
 defaults write com.apple.finder ShowStatusBar -bool true
@@ -118,7 +118,7 @@ defaults write com.apple.dock expose-animation-duration -float 0
 # Don’t group windows by application in Mission Control
 defaults write com.apple.dock expose-group-by-app -bool false
 
-defaults write com.apple.Dock autohide-delay -float 0.0001
+defaults write com.apple.dock autohide-delay -float 0.0001
 
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
