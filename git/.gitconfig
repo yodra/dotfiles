@@ -20,7 +20,7 @@
 
 [core]
 	editor = vim
-	excludesfile = /Users/yodralopez/desarrollo/.gitignore_global
+	excludesfile = /Users/yodralopez/development/.gitignore_global
 	pager = delta
 
 [merge]
