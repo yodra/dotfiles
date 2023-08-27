@@ -24,8 +24,8 @@ prefix = ""
 disabled = true
 
 [git_branch]
-format = "[$symbol$branch]($style)"
-symbol = "🐙"
+format = "[$symbol$branch]($style) "
+symbol = "🐙 "
 
 [git_status]
 conflicted = "🤯"
@@ -35,7 +35,7 @@ diverged = "😵"
 untracked = "🤷‍♀"
 stashed = "📦"
 modified = "📝"
-staged = '[++$count](green)'
+staged = ' [++$count](green)'
 renamed = ""
 deleted = "🗑"
 format = '$all_status$ahead_behind $style'
@@ -51,10 +51,10 @@ style = "yellow"
 
 [python]
 format = '[${symbol}${pyenv_prefix}${version}( \($virtualenv\))]($style) '
-symbol = "🐍"
+symbol = "🐍 "
 
 [java]
-format = '[(${version} )]($style)'
+format = '[${symbol}(${version} )]($style)'
 
 [golang]
 format = '[${symbol}(${version})]($style) '
