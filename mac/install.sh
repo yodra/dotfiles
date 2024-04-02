@@ -126,6 +126,9 @@ defaults write com.apple.dock autohide -bool true
 # Make Dock icons of hidden applications translucent
 defaults write com.apple.dock showhidden -bool true
 
+# Create a blank space in the Dock
+# defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'; killall Dock
+
 ###############################################################################
 # Terminal & iTerm 2                                                          #
 ###############################################################################

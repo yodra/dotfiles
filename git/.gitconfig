@@ -22,6 +22,7 @@
 	editor = vim
 	excludesfile = /Users/yodralopez/development/.gitignore_global
 	pager = delta
+	autocrlf = input
 
 [merge]
   tool = vimdiff
