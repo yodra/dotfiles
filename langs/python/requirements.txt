@@ -1,10 +1,5 @@
 cffi @ file:///private/tmp/cffi-20231211-40239-j25k6o/cffi-1.16.0
-distlib @ file:///private/tmp/python-distlib-20231212-4938-trhlvy/distlib-0.3.8
 docutils @ file:///private/tmp/docutils-20231211-36728-9mhbst/docutils-0.20.1
-filelock @ file:///private/tmp/python-filelock-20231112-5622-k62fq8/filelock-3.13.1/dist/filelock-3.13.1-py3-none-any.whl#sha256=57dbda9b35157b05fb3e58ee91448612eb674172fab98ee235ccb0b5bee19a1c
-platformdirs @ file:///private/tmp/python-platformdirs-20231204-5317-3q4okz/platformdirs-4.1.0
 pycparser==2.22
-PyYAML @ file:///private/tmp/pyyaml-20231018-5610-1rdh755/PyYAML-6.0.1
 setuptools==69.2.0
-six==1.16.0
 wheel @ file:///opt/homebrew/Cellar/python%403.12/3.12.2_1/libexec/wheel-0.42.0-py3-none-any.whl#sha256=5f1ca525bef7466225922019d72cb06a9e91cd3ff807ddd4be1acb84655e5107
