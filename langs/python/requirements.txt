@@ -1,5 +1,4 @@
-cffi @ file:///private/tmp/cffi-20231211-40239-j25k6o/cffi-1.16.0
-docutils @ file:///private/tmp/docutils-20231211-36728-9mhbst/docutils-0.20.1
-pycparser==2.22
-setuptools==69.2.0
-wheel @ file:///opt/homebrew/Cellar/python%403.12/3.12.2_1/libexec/wheel-0.42.0-py3-none-any.whl#sha256=5f1ca525bef7466225922019d72cb06a9e91cd3ff807ddd4be1acb84655e5107
+cffi==2.0.0
+cryptography==46.0.3
+pycparser==2.23
+wheel==0.45.1
